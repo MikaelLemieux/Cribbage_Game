@@ -197,9 +197,9 @@ def main_page():
                     selected_cards.append(card)
                # else:
                 #    col.image(card_image_path(card), caption=card_label(card), width=150)
-            else:
-                col.image(card_image_path(card), caption=card_label(card), width=150)
-                selected_cards.append(card)
+        #    else:
+         #       col.image(card_image_path(card), caption=card_label(card), width=150)
+          #      selected_cards.append(card)
 
         if len(selected_cards) == 4 and not st.session_state.locked_selection:
             st.session_state.locked_selection = selected_cards.copy()
