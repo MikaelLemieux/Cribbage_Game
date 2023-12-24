@@ -50,7 +50,7 @@ if st.session_state['authentication_status']:
             '''
         st.markdown(page_bg_img, unsafe_allow_html=True)
 
-    set_png_as_page_bg(png_file, 250, 125)
+  #  set_png_as_page_bg(png_file, 250, 125)
 
     # Create a dictionary to categorize your apps
     app_categories = {
