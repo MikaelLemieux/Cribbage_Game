@@ -137,7 +137,7 @@ def card_image_path(card):
     
     return f"card_images/{card_name}_of_{suit}.png"
 
-from cribbage_scorer import cribbage_scorer
+#from cribbage_scorer import cribbage_scorer
 
 def score_hand(selected_cards, community_card):
     # Convert your card notation to the library's notation
