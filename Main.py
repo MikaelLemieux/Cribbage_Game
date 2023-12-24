@@ -164,18 +164,6 @@ def main_page():
     if "show_challenge" not in st.session_state:
         st.session_state.show_challenge = False
 
-    # Toggle button to display/hide the challenge
-    if st.sidebar.button("Toggle Cribbage Daily Challenge"):
-        st.sidebar.markdown("""
-        - A standard cribbage game is played with a deck of 52 cards.
-        - Each player is dealt 6 cards.
-        - From these 6 cards, select 4 to use in your hand.
-        - The goal is to create combinations of cards that sum up to 15, or pairs, or runs.
-        - Your hand is then scored based on these combinations, along with a randomly selected community card.
-        - Try to achieve the highest score possible!
-        """)
-        st.session_state.show_challenge = not st.session_state.show_challenge
-
     if st.session_state.show_challenge:
 
         if st.sidebar.button("Show Leaderboard and Achievements"):
