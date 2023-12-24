@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 #import streamlit_analytics
 #from streamlit_chat import message
-import openai
+#import openai
 from Welcome import *
 from Rules import *
 from Main import *
