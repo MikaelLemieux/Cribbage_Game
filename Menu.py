@@ -1,7 +1,7 @@
 import streamlit as st
 import base64
 #import streamlit_analytics
-from streamlit_chat import message
+#from streamlit_chat import message
 import openai
 from Welcome import *
 from Rules import *
