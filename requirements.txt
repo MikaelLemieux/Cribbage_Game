@@ -6,6 +6,4 @@ matplotlib
 seaborn
 feedparser
 numpy
-streamlit_analytics
-streamlit_chat
 openai
