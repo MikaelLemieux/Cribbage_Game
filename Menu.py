@@ -82,11 +82,11 @@ if st.session_state['authentication_status']:
     feedback_list = []
     if "feedback_submitted_faces" not in st.session_state:
         st.session_state["feedback_submitted_faces"] = False
-    from streamlit_feedback import streamlit_feedback
-    feedback = streamlit_feedback(
-        feedback_type="faces",
-        optional_text_label="[Optional] Please provide an explanation",
-    )
+ #   from streamlit_feedback import streamlit_feedback
+   # feedback = streamlit_feedback(
+    #    feedback_type="faces",
+     #   optional_text_label="[Optional] Please provide an explanation",
+   # )
     
     # OpenAI Integration
   #  openai.api_key = st.secrets["openai"]["api_key"]
